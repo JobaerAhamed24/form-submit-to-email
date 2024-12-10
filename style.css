@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container-section{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+#input-box{
+    width: 300px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin: 3px 0px;
+    border-radius: 5px;
+
+
+
+}
+.submit{
+    background-color: rgb(61, 61, 236) !important;
+    color:white !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+input::placeholder{
+    font-size: 14px;
+    color: rgb(39, 38, 38);
+}
+.forgotton-pass{
+    color: rgb(71, 45, 218);
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8px auto 0px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.hr-lin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.left-hr{
+    width: 40%;
+    font-weight: bold;
+}
+.right-hr{
+    width: 40%;
+    text-align: right;
+    font-weight: bold;
+}
+.hr-lin span{
+    margin: 0px 20px;
+    display: block;
+}
+#input-box:focus{
+    border: 1px solid black;
+}
+.Create-new-account{
+    border: 1px solid black;
+    width: 70%;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
